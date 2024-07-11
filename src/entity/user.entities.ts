@@ -59,8 +59,4 @@ export class User extends BaseEntity {
   // Automatically updates the timestamp when the entity is updated
   @UpdateDateColumn()
   updatedAt?: Date;
-
-  // @ManyToMany(() => Organisation)
-  // @JoinTable()
-  // Organisation?: Organisation[];
 }
